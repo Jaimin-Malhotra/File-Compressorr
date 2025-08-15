@@ -12,7 +12,8 @@ Experience the Huffman algorithm in action without any setup! This project inclu
 
 ➡️ Try the Live Compressor Here!
 
-Features
+✨ Features
+
 Lossless Compression: Reduces file size without any loss of data.
 
 Header-based Decompression: The compressed file includes a frequency table header, allowing it to be self-contained and easily decompressed.
@@ -21,20 +22,12 @@ Command-Line Interface: Simple and intuitive commands to either compress or deco
 
 Cross-Platform: Written in standard C++, it can be compiled and run on Windows, macOS, and Linux.
 
-Getting Started (C++ Command-Line Version)
-Prerequisites
-You need a C++ compiler installed on your system. The g++ compiler is recommended.
-
-Windows: Install MinGW-w64.
-
-macOS: Run xcode-select --install in your terminal.
-
-Linux: Run sudo apt-get install build-essential (for Debian/Ubuntu).
+🛠️ Getting Started (C++ Command-Line Version)
 
 Step 1: Compile the Program
 First, compile the main.cpp source code to create an executable file. Open your terminal in the project directory and run the following command:
 
-g++ main.cpp -o huffman_tool
+g++ main.cpp -o huffman_tool.exe
 
 This will create an executable file named huffman_tool (or huffman_tool.exe on Windows).
 
@@ -43,7 +36,7 @@ To compress a file, use the -c flag followed by the input and output filenames.
 
 Syntax:
 
-./huffman_tool -c <input_file> <output_compressed_file>
+./huffman_tool.exe -c <input_file> <output_compressed_file>
 
 Example:
 
@@ -56,7 +49,7 @@ To decompress a file and restore it to its original state, use the -d flag.
 
 Syntax:
 
-./huffman_tool -d <compressed_file> <output_restored_file>
+./huffman_tool.exe -d <compressed_file> <output_restored_file>
 
 Example:
 
