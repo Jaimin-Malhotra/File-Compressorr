@@ -10,7 +10,7 @@ Experience the Huffman algorithm in action without any setup! This project inclu
 
 📊 See Instant Results: Watch the compression ratio and size reduction in real-time.
 
-➡️ Try the Live Compressor Here!
+➡️ Try the Live Compressor Here! :- https://file-compressorr.vercel.app/
 
 ✨ Features
 
